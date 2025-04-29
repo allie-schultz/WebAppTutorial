@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 id="title" class="display-4 blue-text" onmouseover="newColor()" onmouseout="oldColor()">"I Am Going Home"</h1>
+    <p class="small-text">By Roseaux ft. Ben L'Oncle Soul</p>
+</div>
+
+<div id="videoContainer" style="position: absolute; top: -500px; left: 50%; transform: translateX(-50%);">
+<iframe class="video" id="video" width="650" height="500"
+        src="https://www.youtube.com/embed/NYHIvGQ-8nc">
+</iframe>
+</div>
